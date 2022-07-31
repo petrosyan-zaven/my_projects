@@ -1,0 +1,102 @@
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    transition: all .5 linear;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    z-index: 1000;
+    width: 450px;
+    position: fixed;
+    top: -50%;
+    left: calc(50% - 225);
+    
+}
+
+.modal.active {
+    top: 15%;
+}
+
+
+.modal .header {
+    background: #666;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}
+
+.modal input[type="text"] {
+    width: 100%;
+    background: #999;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.modal input[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.modal .close {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.modal .close:hover {
+    color: red;
+}
+
+.container {
+    display: flex;
+    height: 80vh;
+    width: 1000px;
+}
+
+.status {
+    background: #f3f3f3;
+    margin: 0.1rem;
+    flex: 1;
+}
+
+.status:nth-child(even) {
+    background: #e6e4e4;
+}
+
+.status h2 {
+    background: #999;
+    padding: 1rem;
+}
+
+.add_btn {
+    background: #888;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 100%;cursor: pointer;
+}
+
+.todo {
+    background: gray;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    cursor: grab;
+    transition: transform .3s linear;
+}
+
+.fall {
+    transform: translateY(2rem) rotateX(360deg);
+}

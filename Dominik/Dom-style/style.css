@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Nunito:ital,wght@0,200;0,300;0,600;1,200;1,300;1,400;1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    transform: all .2s linear;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --light-gray: rgb(106, 105, 107);
+    --light-black: rgb(43, 42, 44);
+}
+
+header {
+    width: 1440px;
+}
+
+header .top {
+    width: 1172px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+    position: relative;
+    top: 22px;
+}
+
+header .top .logo {
+    position: relative;
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .top .logo img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+header .top .logo .dominik {
+    width: 77px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    top: 2px; left: 72px;
+    position: absolute;
+    color: var(--light-black);
+
+}
+
+header .top .logo p {
+    font-size: 12px;
+    color: var(--light-gray);
+    position: absolute;
+    top: 45px; left: 65px;
+    font-weight: normal;
+}
+
+header .top .navbar {
+    margin-top: 16px;
+}
+
+header .top .navbar a {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--light-black);
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+header .top .navbar a:hover {
+   text-decoration: underline;
+}
+
+header .inner {
+    width: 1172px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+header .inner .box {
+    position: relative;
+    width: 48%;
+    top: 20px;
+}
+
+header .inner .box .hello {
+    position: absolute;
+    top: 95px;
+    font-size: 32px;
+    font-weight:lighter;
+    color: var(--light-black);
+}
+
+header .inner .box h1 {
+    width: 400px;
+    position: absolute;
+    top: 135px;
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--light-black);
+}
+
+header .inner .box p {
+    position: absolute;
+    top: 190px;
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--light-gray);
+    line-height: normal;
+}
+
+header .inner .box .web {
+    position: absolute;
+    top: 233px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .inner .box .web img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+}
+
+header .inner .box .web img:hover {
+    cursor: pointer;
+    opacity: .5;
+    transform: 1s linear;
+}
+
+header .inner .box .btn {
+    position: absolute;
+    top: 315px;
+    padding: 20px 30px;
+    border: 1px solid var(--light-black);
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 16px;
+    color: var(--light-gray);
+    text-transform: uppercase;
+}
+
+header .inner .box .btn:hover {
+    background: var(--light-gray);
+    color: var(--black);
+    opacity: .4;
+    transform: 2s linear;
+}
+
+
+/*-------WORKRS-------*/
+
+.works {
+    position: relative;
+    width: 1172px;
+    margin: 30px auto;
+}
+
+.works .myworks {
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bolder;
+    color: var(--light-black);
+}
+
+.works .inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+} 
+
+.works .inner .box {
+    width: 370px;
+    height: 280px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0,  .1);
+    border-radius: 5px;
+}
+
+.works .inner .box p {
+    font-size: 12px;
+    font-weight: 200;
+    color: var(--light-black);
+    padding: 5px  20px;
+    text-transform: uppercase;
+}
+
+.works .inner .box img {
+    width: 370px;
+    height: 210px;
+}
+
+.works .inner .box .inbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.works .inner .box .inbox p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+

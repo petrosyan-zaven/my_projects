@@ -1,0 +1,33 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.square{
+    width: 16px;
+    height: 16px;
+    background: #1d1d1d;
+    margin: 2px;
+    transition: 2s linear;
+}
+
+.square:hover{
+    transition-duration: 0s;
+}

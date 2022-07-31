@@ -1,0 +1,149 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: all .3s linear;
+}
+
+h1 {
+
+    text-align: center;
+    margin-top: 1rem;
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+h1 span {
+    color: red;
+    font-size: 45px;
+}
+h1 .line {
+    color: #ccc;
+}
+
+.container {
+    margin: 1rem;
+    display: flex;
+}
+
+.game_style {
+    width: 48%;
+   
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+max-width: 250px;}
+
+.container .game_style .name, .num {
+    width: 80%;
+    margin-top: .5rem;
+    padding: 2px;
+}
+
+.cotainer .game_style .div_radio, .div_check {
+    padding-top: 1rem;
+}
+
+.div_radio {
+    padding-top: 1rem;
+}
+
+.radio_bot {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.forx, .selx {
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.foro, .selo {
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+/* .container .list {
+    margin-top: 1rem;
+    width: 400px;
+    text-align: center;
+} */
+
+
+
+/* .game {
+    margin-top: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+} */
+
+.container .game_style .btn {
+    width: 50px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.container .game_box {
+    margin-top: 2rem;
+    width: 50%;
+}
+
+#game {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.block {
+    background: black;
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.winer {
+    top: -60%;
+    left: 50%;transform: translateX(-50%);z-index: 100;
+    width: 60%;
+    height: 250px;
+    background: #ccc;
+    opacity: .5;
+    color: black;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.wintext {
+    margin-left: 30px;
+    font-size: 25px;
+}
+.winer.active {
+    top: 13%;
+}
+
+.winer h2 {
+    text-align: center;
+    margin: 1rem auto;
+    opacity: 1;
+}
+
+.winer .btn {
+    padding: .2rem;
+    width: 100px;
+    position: absolute;
+    left:calc(50% - 50px);
+    top: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}

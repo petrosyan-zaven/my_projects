@@ -1,0 +1,50 @@
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    transition: all .5s linear;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.h1-span {
+    color: red;
+}
+
+.main {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    background: #ccc;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+.fa-check {
+    padding: 2px;
+    color:blue;
+    cursor: pointer;
+}
+
+.fa-trash {
+    padding: 2px;
+    color: red;
+    cursor: pointer;
+}
+
+.completed {
+    background: green;
+}
+
+.fall {
+    /* transform: translate(5rem); */
+    opacity: 0;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="winer">
+          <h2>Winer</h2>
+        
+          <input id="okk" class="btn" type="button" value="Ok">
+    </div>
+    <h1>Tic<span class="line">-</span><span>Tac</span><span class="line">-</span>Toe</h1>
+  <div class="container">
+      
+
+     
+      <div class="game_style">
+       <form class="form"> 
+        <audio class="click_audio" src="audio/click.mp3"></audio>
+        <audio class="gameover" src="audio/gameover.mp3"></audio>
+        <input id="size" class="num" type="number" value="3" max='5'>
+        <input id="player_name" class="name" type="text" placeholder="name">
+        <label class="radio_bot" for="radio">play with the computer
+            <input id="bot" type="radio">
+        </label>
+        <div class="div_check">
+            <label class="forx" for="checkbox">Select X
+            <input class="selx" type="checkbox">
+        </label>
+            <label class="foro" for="chackbox">Select O
+            <input class="selo" type="checkbox">
+        </label>
+        </div>
+        <div class="btn_box">
+            <input id="ok" class="btn" type="button" value="Ok">
+            <input id="reset" class="btn" type="submit" value="Reset">
+        </form>  
+        </div>
+      </div>
+      <div class="game_box">
+        <div id="game"></div>
+      </div>
+  </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
